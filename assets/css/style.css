@@ -1038,7 +1038,7 @@ footer .container .row .col-12 .d-flex a:hover path {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:992px) {
     .display {
         flex-direction: column;
         justify-content: center;
