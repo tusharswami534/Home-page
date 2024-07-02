@@ -342,6 +342,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #ffffffff;
+    margin-bottom: 0;
 }
 
 .sen {
@@ -858,7 +859,7 @@ footer .container .row .col-12 .d-flex a:hover path {
 
     color: white;
     margin-top: 70px;
-    margin-bottom: 20px;
+   padding-bottom: 25px;
 }
 
 .pr-105 {
@@ -875,6 +876,12 @@ footer .container .row .col-12 .d-flex a:hover path {
 
 .in {
     display: none;
+}
+.icon-line{
+    width: 35px;
+    height: 3px;
+    gap: 5px;
+    background-color: white;
 }
 
 /*----------------------------------------------------------Responsive-------------------------------------------------------------*/
@@ -907,12 +914,13 @@ footer .container .row .col-12 .d-flex a:hover path {
         width: 100%;
         background-color: white;
         top: 50%;
+        left: 0;
     }
 
     .check-btn {
         margin-top: 24px;
     }
-
+ 
 
 }
 
